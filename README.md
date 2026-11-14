@@ -49,3 +49,4 @@ curl -i http://localhost:8080/todos/1
 Task titles must contain non-whitespace text. Invalid request bodies receive `400 Bad Request`; an unknown task ID receives `404 Not Found`.
 
 Jenkins CI Pipeline - Automatic Build and Artifact Versioning.
+Jenkins automatically detects GitHub changes and triggers CI builds.
